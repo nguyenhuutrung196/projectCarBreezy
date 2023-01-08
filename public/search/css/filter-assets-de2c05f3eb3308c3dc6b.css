@@ -1,0 +1,217 @@
+#filter {
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 320px;
+    top: 0px;
+    left: -320px;
+    height: calc(100% - 50px);
+    z-index: 1200;
+    background-color: #ffffff;
+    transition: left 0.2s ease-out;
+    height: 100%;
+}
+#filter.on {
+    left: 0px;
+}
+#filter.on ~ .bg {
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1100;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 992px) {
+    #filter.on ~ .bg {
+        display: none;
+    }
+}
+@media (min-width: 992px) {
+    #filter {
+        position: relative;
+        left: 0px;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        z-index: auto;
+    }
+}
+#filter #filter-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 26px 10px;
+    background-color: #f2f2f2;
+}
+@media (min-width: 992px) {
+    #filter #filter-top {
+        display: none;
+    }
+}
+#filter #filter-top a {
+    font-size: 14px;
+    font-weight: 600;
+}
+#filter #filter-top span {
+    color: #262626;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+}
+#filter #filter-content {
+    transition: filter 0.2s ease-out;
+}
+#filter #filter-content.loading {
+    filter: blur(5px);
+}
+#filter #filter-content .filter-section {
+    padding: 25px 0;
+    margin: 0 10px;
+}
+#filter #filter-content .filter-section:not(:last-child) {
+    border-bottom: 1px solid #dbdbdb;
+}
+#filter #filter-content .filter-section h4 {
+    color: #262626;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 6px 0;
+}
+#filter #filter-content .filter-section .items {
+    margin-bottom: 20px;
+}
+#filter #filter-content .filter-section .items.expanded .item {
+    display: block;
+}
+#filter #filter-content .filter-section .items .item {
+    position: relative;
+    height: 71px;
+    margin: 3px;
+    display: block;
+    color: #858585;
+    font-size: 10px;
+    display: none;
+    transition: box-shadow 0.18s linear;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.04);
+}
+#filter #filter-content .filter-section .items .item.square {
+    text-align: center;
+    width: 93px;
+    float: left;
+}
+#filter #filter-content .filter-section .items .item:hover {
+    text-decoration: none;
+    box-shadow: 0px 5px 12px 0px rgba(0, 0, 0, 0.08);
+}
+#filter #filter-content .filter-section .items .item img {
+    height: 50px;
+    width: 90px;
+    -o-object-fit: contain;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+}
+#filter #filter-content .filter-section .items .item .zero-opacity {
+    opacity: 0;
+}
+#filter #filter-content .filter-section .items .item.isMain {
+    display: block;
+}
+#filter #filter-content .filter-section .items .item span {
+    padding: 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+#filter #filter-content .filter-section .items .item.lifestyle {
+    padding: 15px 0px;
+    margin: 5px;
+    font-size: 12px;
+    height: auto;
+    width: 48%;
+    float: left;
+    text-align: center;
+    color: #262626;
+    font-size: 15px;
+}
+#filter #filter-content .filter-section .items .item.lifestyle:nth-child(odd) {
+    margin-left: 0;
+}
+#filter #filter-content .filter-section .items .item.lifestyle:nth-child(even) {
+    margin-right: 0;
+}
+#filter #filter-content .filter-section .offer {
+    display: block;
+    padding: 10px 0;
+}
+#filter #filter-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 26px 10px;
+    z-index: 10000;
+}
+#filter #filter-bottom .btn-clear {
+    color: #007cc2;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 33px;
+}
+@media (min-width: 992px) {
+    #filter #filter-bottom {
+        /* display: none; */
+    }
+}
+#postcode-selector .form-inline label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+#postcode-selector .form-inline .form-group {
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-bottom: 0;
+}
+#postcode-selector .fakelink {
+    cursor: pointer;
+    color: #007cc2;
+}
+#postcode-selector .fakelink:hover {
+    text-decoration: underline;
+}
+#postcode-selector .read-area {
+    padding: 1px 0 0 0;
+    margin-top: 5px;
+}
+#postcode-selector .form-control {
+    width: 60px;
+    font-size: 12px;
+    padding: 2px 6px;
+}
+#postcode-selector .btn-primary {
+    font-size: 12px;
+    color: #fff;
+    background-color: #007cc2;
+    border-color: #007cc2;
+    border-radius: 10rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+#postcode-selector .btn-primary:hover {
+    color: #fff;
+    background-color: #006ca9;
+    border-color: #006ca9;
+}
+
+/*# sourceMappingURL=filter-assets-de2c05f3eb3308c3dc6b.css.map*/

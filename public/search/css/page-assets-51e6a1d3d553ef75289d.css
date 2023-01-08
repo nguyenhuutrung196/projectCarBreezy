@@ -1,0 +1,244 @@
+.autocomplete-dropdown {
+    position: relative;
+    display: flex;
+}
+.autocomplete-dropdown div {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    align-items: center;
+}
+.autocomplete-dropdown div i {
+    height: 16px;
+}
+.autocomplete-dropdown div i:after {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    content: "";
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTYgNTEyIj48cGF0aCBmaWxsPSIjMDA3Y2MyIiBkPSJNMTE5LjUgMzI2LjlMMy41IDIwOS4xYy00LjctNC43LTQuNy0xMi4zIDAtMTdsNy4xLTcuMWM0LjctNC43IDEyLjMtNC43IDE3IDBMMTI4IDI4Ny4zbDEwMC40LTEwMi4yYzQuNy00LjcgMTIuMy00LjcgMTcgMGw3LjEgNy4xYzQuNyA0LjcgNC43IDEyLjMgMCAxN0wxMzYuNSAzMjdjLTQuNyA0LjYtMTIuMyA0LjYtMTctLjF6Ij48L3BhdGg+PC9zdmc+);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.autocomplete-dropdown input {
+    border: none;
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+}
+.autocomplete-dropdown ul {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    z-index: 60;
+    background: #fff;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-top: none;
+    list-style: none;
+    padding: 0;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.autocomplete-dropdown ul .first-child {
+    padding: 8px;
+}
+.autocomplete-dropdown ul li {
+    transition: all 0.2s ease;
+    background-color: #fff;
+    font-size: 12px;
+}
+.autocomplete-dropdown ul li:hover {
+    background-color: #edf7f9;
+    font-weight: 600;
+}
+.autocomplete-dropdown ul li a,
+.autocomplete-dropdown ul li span {
+    display: flex;
+    flex: 1;
+    padding: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.autocomplete-dropdown ul li a:hover,
+.autocomplete-dropdown ul li span:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+body {
+    background-color: #ffffff;
+    font-family: "Open Sans", sans-serif;
+    color: #393939;
+    -webkit-font-smoothing: antialiased;
+    font-size: 13px;
+    line-height: 1.4;
+    -webkit-overflow-scrolling: touch;
+}
+body #components-container {
+    margin-bottom: -18px;
+}
+@media (min-width: 992px) {
+    body #components-container {
+        margin-bottom: unset;
+    }
+}
+@media (min-width: 992px) {
+    #main {
+        display: flex;
+    }
+}
+@media (min-width: 992px) {
+    #main aside {
+        flex: 1 320px;
+    }
+}
+.chk-toggle-label {
+    color: #4a4a4a !important;
+}
+.chk-toggle-label label.label-checkbox {
+    cursor: pointer;
+    margin-bottom: 0;
+    position: relative;
+    display: inline;
+}
+.chk-toggle[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    opacity: 0;
+    margin-right: 5px;
+    cursor: pointer;
+    color: #4a4a4a;
+}
+.chk-toggle-label label.label-checkbox span {
+    display: inline-block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    border-radius: 3px;
+    vertical-align: middle;
+    transition: background 0.1s ease;
+    border: 1px solid;
+    margin-right: 5px;
+    left: 0;
+}
+.chk-toggle-label label.label-checkbox span::after {
+    border-right: 2px solid #007cc2;
+    border-bottom: 2px solid #007cc2;
+}
+.chk-toggle[type="checkbox"]:checked ~ span::after {
+    opacity: 1;
+    transform: rotate(45deg) scale(1);
+}
+.chk-toggle-label label.label-checkbox span::after {
+    content: "";
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    width: 6px;
+    height: 12px;
+    opacity: 0;
+    transform: rotate(45deg) scale(0);
+    border-right: 2px solid #007cc2;
+    border-bottom: 2px solid #007cc2;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+}
+.chk-toggle-label .icon {
+    background: center no-repeat;
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+    top: 4px;
+}
+.chk-toggle-label .icon-information {
+    background-image: url('data:image/svg+xml;utf8, <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="26.98" height="26.98" viewBox="0 0 26.98 26.98"><defs><style>.cls-1{fill:rgb%28110,110,110%29}</style></defs><path class="cls-1" d="M13.73 27.19A13.49 13.49 0 1 1 27.22 13.7a13.51 13.51 0 0 1-13.49 13.49zm0-26A12.49 12.49 0 1 0 26.22 13.7 12.5 12.5 0 0 0 13.73 1.21z" transform="translate%28-.24 -.21%29"/><path class="cls-1" d="M13.73 9.48a1.09 1.09 0 1 1 1.09-1.09 1.09 1.09 0 0 1-1.09 1.09z" transform="translate%28-.24 -.21%29"/><path class="cls-1" d="M13.99 19.89h-1v-7.08h-2.36v-1h3.36v8.08z"/><path class="cls-1" d="M10.63 18.89h5.72v1h-5.72z"/></svg>');
+}
+.heading-summary {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.clear-link {
+    display: flex;
+    margin-right: 10px;
+    font-size: 12px;
+}
+.border-primary {
+    border-color: #007cc2 !important;
+}
+a {
+    color: #007cc2;
+}
+#secondary-bar {
+    width: 100%;
+    height: 50px;
+    background-color: #27ae60;
+    position: relative;
+    top: 35px;
+    z-index: 90;
+    transform: translate3d(0, 0, 0);
+    cursor: pointer;
+    padding: 14px 20px;
+}
+@media (min-width: 992px) {
+    #secondary-bar {
+        height: 32px;
+        cursor: auto;
+        padding: 7px 50px;
+        position: relative;
+        top: 35px;
+        left: 0;
+        display: none;
+    }
+    .icon-filter-mobile{
+        position: absolute;
+        float: left;
+        font-size: 16px;
+        margin: 0 16px;
+    }
+}
+#secondary-bar .icon-filter {
+    background-image: url("https://s3-ap-southeast-2.amazonaws.com/resource.csnstatic.com/commercial/images/filter+icon.png");
+    float: left;
+    margin-right: 15px;
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-size: cover;
+}
+@media (min-width: 992px) {
+    #secondary-bar .icon-filter {
+        display: none;
+    }
+}
+#secondary-bar .info {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 22px;
+}
+@media (min-width: 992px) {
+    #secondary-bar .info {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+/*# sourceMappingURL=page-assets-51e6a1d3d553ef75289d.css.map*/

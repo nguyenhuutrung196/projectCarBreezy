@@ -1,0 +1,241 @@
+.carsales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/carsales.svg");
+}
+.carsales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/carsales-white.svg");
+}
+.tyresales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/tyresales.svg");
+}
+.tyresales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/tyresales-white.svg");
+}
+.bikesales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/bikesales.svg");
+}
+.bikesales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/bikesales-white.svg");
+}
+.boatsales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/boatsales.svg");
+}
+.boatsales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/boatsales-white.svg");
+}
+.caravancampingsales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/caravancampingsales.svg");
+}
+.caravancampingsales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/caravancampingsales-white.svg");
+}
+.trucksales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/trucksales.svg");
+}
+.trucksales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/trucksales-white.svg");
+}
+.farmmachinerysales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/farmmachinerysales.svg");
+}
+.farmmachinerysales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/farmmachinerysales-white.svg");
+}
+.constructionsales .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/constructionsales.svg");
+}
+.constructionsales .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/constructionsales-white.svg");
+}
+.redbook .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/redbook.svg");
+}
+.redbook .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/redbook-white.svg");
+}
+.soloautos .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/soloautos.svg");
+}
+.soloautos .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/soloautos-white.svg");
+}
+.seminuevos .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v5/seminuevos.svg");
+}
+.seminuevos .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v5/seminuevos-white.svg");
+}
+.demotores .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/demotores.svg");
+}
+.demotores .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/demotores-white.svg");
+}
+.chileautos .site-logo {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v5/chileautos.svg");
+}
+.chileautos .site-logo-alt {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v5/chileautos-white.svg");
+}
+.appshell-header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.appshell-header .site-logo {
+    height: 45px;
+    width: 275px;
+}
+.appshell-header.mega-nav div {
+    margin: auto;
+}
+.appshell-header .banner-ad {
+    width: 728px;
+    height: 90px;
+}
+.appshell-header.carsales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/carsales.svg");
+}
+.appshell-header.tyresales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/tyresales.svg");
+}
+.appshell-header.bikesales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/bikesales.svg");
+}
+.appshell-header.boatsales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/boatsales.svg");
+}
+.appshell-header.caravancampingsales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/caravancampingsales.svg");
+}
+.appshell-header.trucksales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/trucksales.svg");
+}
+.appshell-header.farmmachinerysales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/farmmachinerysales.svg");
+}
+.appshell-header.constructionsales .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/constructionsales.svg");
+}
+.appshell-header.redbook .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/redbook.svg");
+}
+.appshell-header.soloautos .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/soloautos.svg");
+}
+.appshell-header.seminuevos .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v5/seminuevos.svg");
+}
+.appshell-header.demotores .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/demotores.svg");
+}
+.appshell-header.chileautos .header-logo {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v5/chileautos.svg");
+}
+.redbook .site-logo-alt {
+    background-image: url("https://resource.csnstatic.com/retail/globals/logo/v3/redbook-white.png");
+}
